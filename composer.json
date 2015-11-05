@@ -32,12 +32,8 @@
         "jms/di-extra-bundle": "*"
     },
     "autoload": {
-        "psr-0": { "JMS\\TranslationBundle": "" }
+        "psr-4": { "JMS\\TranslationBundle": "" }
     },
-    "target-dir": "JMS/TranslationBundle",
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.1-dev"
-        }
     }
 }
